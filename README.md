@@ -1,4 +1,18 @@
-# 🎬 Netflix Movies & TV Shows Data Analysis (SQL)
+<p align="center">
+  <img src="./banner.svg" alt="Netflix SQL Data Analysis Project banner" width="100%">
+</p>
+
+<h1 align="center">Netflix Movies & TV Shows Data Analysis (SQL)</h1>
+
+<p align="center">
+A SQL portfolio project analyzing Netflix's content library to uncover patterns in content type, ratings, genres, release trends, and contributor activity using PostgreSQL.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-PostgreSQL-blue" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/status-completed-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/dataset-8807%20titles-e50914" alt="Dataset size">
+</p>
 
 A SQL portfolio project analyzing Netflix's content library to uncover patterns in content type, ratings, genres, release trends, and contributor activity using PostgreSQL.
 
