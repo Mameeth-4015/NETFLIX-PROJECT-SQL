@@ -1,51 +1,7 @@
-<p align="center">
-  <img src="./banner.svg" alt="Netflix SQL Data Analysis Project banner" width="100%">
+<p align="center"> <img src="./banner.png"...)
+  <img src="./banner.png" alt="Netflix SQL Data Analysis Project banner" width="100%">
 </p>
-<svg width="100%" height="220" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#0a0a0a"/>
-<stop offset="100%" stop-color="#1a1a1a"/>
-</linearGradient>
-<linearGradient id="redGlow" x1="0%" y1="0%" x2="0%" y2="100%">
-<stop offset="0%" stop-color="#e50914"/>
-<stop offset="100%" stop-color="#b00710"/>
-</linearGradient>
-</defs>
 
-<rect x="0" y="0" width="680" height="220" fill="url(#bgGrad)"/>
-
-<g fill="#000000">
-<rect x="20" y="10" width="18" height="12" rx="2"/>
-<rect x="60" y="10" width="18" height="12" rx="2"/>
-<rect x="100" y="10" width="18" height="12" rx="2"/>
-<rect x="140" y="10" width="18" height="12" rx="2"/>
-<rect x="180" y="10" width="18" height="12" rx="2"/>
-<rect x="500" y="10" width="18" height="12" rx="2"/>
-<rect x="540" y="10" width="18" height="12" rx="2"/>
-<rect x="580" y="10" width="18" height="12" rx="2"/>
-<rect x="620" y="10" width="18" height="12" rx="2"/>
-</g>
-<g fill="#000000">
-<rect x="20" y="198" width="18" height="12" rx="2"/>
-<rect x="60" y="198" width="18" height="12" rx="2"/>
-<rect x="100" y="198" width="18" height="12" rx="2"/>
-<rect x="140" y="198" width="18" height="12" rx="2"/>
-<rect x="180" y="198" width="18" height="12" rx="2"/>
-<rect x="500" y="198" width="18" height="12" rx="2"/>
-<rect x="540" y="198" width="18" height="12" rx="2"/>
-<rect x="580" y="198" width="18" height="12" rx="2"/>
-<rect x="620" y="198" width="18" height="12" rx="2"/>
-</g>
-
-<text x="340" y="105" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="64" fill="url(#redGlow)" letter-spacing="2">NETFLIX</text>
-
-<rect x="140" y="135" width="400" height="38" rx="6" fill="#e50914"/>
-<text x="340" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="1">SQL DATA ANALYSIS PROJECT</text>
-
-<text x="340" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="13" fill="#9a9a9a" letter-spacing="3">MOVIES · TV SHOWS · INSIGHTS</text>
-
-</svg>
 <h1 align="center">Netflix Movies & TV Shows Data Analysis (SQL)</h1>
 
 <p align="center">
@@ -57,11 +13,6 @@ A SQL portfolio project analyzing Netflix's content library to uncover patterns 
   <img src="https://img.shields.io/badge/status-completed-brightgreen" alt="Status">
   <img src="https://img.shields.io/badge/dataset-8807%20titles-e50914" alt="Dataset size">
 </p>
-
-A SQL portfolio project analyzing Netflix's content library to uncover patterns in content type, ratings, genres, release trends, and contributor activity using PostgreSQL.
-
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
-![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 ---
 
@@ -186,6 +137,7 @@ This query splits multi-country entries (e.g., `"United States, India"`) into in
 ```
 ├── netflix_titles.csv      # Raw dataset
 ├── NETFLIX_PROJECT.sql     # All SQL queries (schema + analysis)
+├── banner.png              # README banner
 └── README.md               # Project documentation
 ```
 
